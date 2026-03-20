@@ -1,0 +1,139 @@
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Cattle Farm</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: url("https://upload.wikimedia.org/wikipedia/commons/6/6e/Cattle.jpg") no-repeat center;
+            background-size: cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* SECTION */
+        .section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* CARDS */
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            margin: 15px;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* CONTACT */
+        .contact {
+            background: darkgreen;
+            color: white;
+            padding: 30px;
+        }
+
+        /* FOOTER */
+        .footer {
+            background: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>🐄 My Cattle Farm</h1>
+    <p>Top Quality Cattle | Trusted Farming</p>
+    <a href="#" class="btn">View Cattle</a>
+</div>
+
+<!-- ABOUT -->
+<div class="section">
+    <h2>About Us</h2>
+    <p>We provide healthy, strong cattle and share modern farming tips to help farmers grow.</p>
+</div>
+
+<!-- CATTLE -->
+<div class="section">
+    <h2>Our Cattle</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Brahman_cattle.jpg">
+            <h3>Brahman</h3>
+            <p>Strong and heat-resistant cattle.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Black_Angus.jpg">
+            <h3>Angus</h3>
+            <p>High-quality beef cattle.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Nguni_cattle.jpg">
+            <h3>Nguni</h3>
+            <p>Perfect for African conditions.</p>
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT -->
+<div class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 084 036 5373</p>
+    <p>📍 South Africa</p>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>© 2026 My Cattle Farm</p>
+</div>
+
+</body>
+</html>
